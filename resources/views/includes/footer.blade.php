@@ -42,3 +42,34 @@
       </div> <!-- end container -->
     </div>
 </footer> <!-- end footer -->
+<script src="bingoplugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="bingoplugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="bingoplugins/parallax/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox -->
+    <script src="bingoplugins/lightbox2/dist/js/lightbox.min.js"></script>
+    <!-- slick Carousel -->
+    <script src="bingoplugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Portfolio Filtering -->
+    <script src="bingoplugins/mixitup/dist/mixitup.min.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="bingoplugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Custom js -->
+    <script src="bingojs/script.js"></script>
+
+      <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+    (Load Extensions only on Local File Systems ! 
+    The following part can be removed on Server for On Demand Loading) --> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.migration.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.video.min.js"></script> 
+  

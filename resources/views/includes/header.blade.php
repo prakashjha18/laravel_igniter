@@ -19,11 +19,11 @@
        <!-- main nav -->
        <nav class="collapse navbar-collapse navbar-right">
           <ul id="nav" class="nav navbar-nav menu">
-                <li><a href="portfolio.html">About Us</a></li>
+                <li><a href="/about">About Us</a></li>
                 <li class="dropdown">
                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ecosystem <span class="caret"></span></a>
                    <ul class="dropdown-menu">
-                      <li><a href="index.html">about</a></li>
+                      <li><a href="/about-ecosystem">about</a></li>
                       <li><a href="index-text.html">how to</a></li>
                    </ul>
                 </li>
@@ -32,7 +32,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Connect <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                        <li><a href="index.html">Forum</a></li>
-                       <li><a href="index-text.html">Blog</a></li>
+                       <li><a href="/blogs">Blog</a></li>
                        <li><a href="onepage-slider.html">Events & Sessions</a></li>
                        <li><a href="onepage-text.html">FAQs</a></li>
                     </ul>

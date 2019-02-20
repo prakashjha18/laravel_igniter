@@ -161,20 +161,103 @@ Welcome Slider
 		</div>
 	</div>
 </section>	
-<div class="container">
-<div class="col-md-4 col-sm-6 col-xs-12  no-padding">
-  <div class="service-block color-bg text-center">
-    <div class="service-icon text-center">
-      <i class="tf-ion-ios-copy-outline"></i>
-    </div>
-    <h3>WordPress Theme</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
-  </div>
-</div>
-</div>
 <!--
 Start About Section
 ==================================== -->
+<!--Murli-->
+
+<section class="counter-wrapper section-sm" style="background-color: #76cf4a; padding-top : 100px; padding-bottom: 100px;" id="choose">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="title" style="padding : 0%; margin: 0px;">
+                    <p style="color: white; font-size: 3em;">What Do We Offer</p>
+                </div>
+            </div>
+            <!-- first count item -->
+            <div class="col-md-4  col-sm-6 col-xs-12 text-center ">
+                <div class="counters-item">
+                    <a class="menu__link scroll" href="#enthusiast">
+                        <img class="logo-default" src="{{ URL::to('bingoimages/Enthusiast.png') }}" alt="logo" />
+                        <div>
+                            <span class="counter" style="color: white; font-size: 1.5em; line-height: 60%;">BUSINESS ENTHUSIAST</span>
+                        </div>
+                        <h4 style="color: white;">EAGER TO LEARN ABOUT BUSSINESS AND STARTUPS</h4>
+                    </a>
+                </div>
+            </div>
+            <!-- end first count item -->
+        
+            <!-- second count item -->
+            <div class="col-md-4  col-sm-6 col-xs-12 text-center ">
+                <div class="counters-item">
+                <a class="menu__link scroll" href="#mentor">
+                    <img class="logo-default" src="{{ URL::to('bingoimages/Mentor.png') }}" alt="logo" />
+                    <div>
+                        <span class="counter" style="color: white; font-size: 1.5em; line-height: 60%;">INTELLECTUAL</span>
+                    </div>
+                    <h4 style="color: white;">DEDICATED TO GUIDE FUTURE BUSSINESSES</h4>
+                </a>
+                </div>
+            </div>
+            <!-- end second count item -->
+        
+            <!-- third count item -->
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center ">
+                <div class="counters-item kill-border">
+                <a class="menu__link scroll" href="#incubator">
+                    <img class="logo-default" src="{{ URL::to('bingoimages/Incubator.png') }}" alt="logo" />
+                    <div>
+                        <span class="counter" style="color: white; font-size: 1.5em; line-height: 60%;">INCUBATOR<br></span>
+                    </div>
+                    <h4 style="color: white;">LOOKING TO COLLABORATE WITH STARTUPS</h4>
+                </a>
+                </div>
+            </div>
+            <!-- end third count item -->
+
+            <!-- fourth count item -->
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center ">
+                <div class="counters-item">
+                <a class="menu__link scroll" href="#accelerator">
+                    <img class="logo-default" src="{{ URL::to('bingoimages/Accelerator.png') }}" alt="logo" />
+                    <div>
+                        <span class="counter" style="color: white; font-size: 1.5em; line-height: 60%;">ACCELERATOR<br></span>
+                    </div>
+                    <h4 style="color: white;">LOOKING TO SCALE THE STARTUPS</h4>
+                </a>
+                </div>
+            </div>
+            <!-- end fourth count item -->
+
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center ">
+                <div class="counters-item">
+                <a class="menu__link scroll" href="#investor">
+                    <img class="logo-default" src="{{ URL::to('bingoimages/Investor.png') }}" alt="logo" />
+                    <div>
+                        <span class="counter" style="color: white; font-size: 1.5em; line-height: 60%;">INVESTOR</span>
+                    </div>
+                    <h4 style="color: white;">PASSIONATE ABOUT BUSINESSES AND READY TO INVEST</h4>
+                </a>
+                </div>
+            </div>
+            <!-- end fifth count item -->
+
+            <div class="col-md-4  col-sm-6 col-xs-12 text-center ">
+                <div class="counters-item kill-border" style="padding : 0px; margin: 0px;">
+                <a class="menu__link scroll" href="#service">
+                    <img class="logo-default" src="{{ URL::to('bingoimages/Service.png') }}" alt="logo" />
+                    <div>
+                        <span class="counter" style="color: white; font-size: 1.5em; line-height: 60%;">SERVICE PROVIDER</span>
+                    </div>
+                    <h4 style="color: white;">READY TO SERVE STARTUPS AND BUSINESSES</h4>
+                </a>
+                </div>
+            </div>
+            <!-- end sixth count item-->
+        </div> 		<!-- end row -->
+    </div>   	<!-- end container -->
+</section>
 <section class="service-2 section">
   <div class="container">
     <div class="row">
@@ -489,37 +572,7 @@ Start Call To Action
     =====================================-->
     
   <!-- Main jQuery -->
-    <script src="bingoplugins/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap 3.1 -->
-    <script src="bingoplugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Parallax -->
-    <script src="bingoplugins/parallax/jquery.parallax-1.1.3.js"></script>
-    <!-- lightbox -->
-    <script src="bingoplugins/lightbox2/dist/js/lightbox.min.js"></script>
-    <!-- slick Carousel -->
-    <script src="bingoplugins/slick-carousel/slick/slick.min.js"></script>
-    <!-- Portfolio Filtering -->
-    <script src="bingoplugins/mixitup/dist/mixitup.min.js"></script>
-    <!-- Smooth Scroll js -->
-    <script src="bingoplugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- Custom js -->
-    <script src="bingojs/script.js"></script>
-
-      <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-    (Load Extensions only on Local File Systems ! 
-    The following part can be removed on Server for On Demand Loading) --> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.video.min.js"></script> 
-  
+    
  <script>
   
     /* https://learn.jquery.com/using-jquery-core/document-ready/ */
