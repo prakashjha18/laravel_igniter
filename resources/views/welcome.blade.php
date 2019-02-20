@@ -102,57 +102,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
 <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Bingo One page parallax responsive HTML Template ">
-  
-  <meta name="author" content="Themefisher.com">
-
-  <title>Bingo | Responsive Multipurpose Parallax HTML5 Template</title>
-
-<!-- Mobile Specific Meta
-  ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
-  
-  <!-- CSS
-  ================================================== -->
-  <!-- RS5.0 Main Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/settings.css">
-  <!-- RS5.0 Layers and Navigation Styles -->
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/navigation.css">
-  <!-- REVOLUTION STYLE SHEETS -->
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/fonts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/settings.css">
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/navigation.css"> 
-  <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="bingoplugins/themefisher-font/style.css">
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="bingoplugins/bootstrap/css/bootstrap.min.css">
-  <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="bingoplugins/lightbox2/dist/css/lightbox.min.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="bingoplugins/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="bingoplugins/slick-carousel/slick/slick-theme.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="bingocss/style.css">
-
-
-  <!-- Colors -->
-  <link rel="stylesheet" type="text/css" href="bingocss/colors/green.css" title="green">
-  <link rel="stylesheet" type="text/css" href="bingocss/colors/red.css" title="light-red">
-  <link rel="stylesheet" type="text/css" href="bingocss/colors/blue.css" title="blue">
-  <link rel="stylesheet" type="text/css" href="bingocss/colors/light-blue.css" title="light-blue">
-  <link rel="stylesheet" type="text/css" href="bingocss/colors/yellow.css" title="yellow">
-  <link rel="stylesheet" type="text/css" href="bingocss/colors/light-green.css" title="light-green">
-  
-
-</head>
+@include('includes.head')
 
 <body id="body">
 
@@ -179,55 +129,7 @@
 <!--
 Fixed Navigation
 ==================================== -->
-<header class="navigation navbar navbar-fixed-top">
-   <div class="container">
-      <div class="navbar-header">
-         <!-- responsive nav button -->
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-         <span class="sr-only">Toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         </button>
-         <!-- /responsive nav button -->
-         <!-- logo -->
-         <a class="navbar-brand logo" href="index.html">
-            <img class="logo-default" src="bingoimages/logo.png" alt="logo" />
-            <img class="logo-white" src="bingoimages/logo-white.png" alt="logo" />
-         </a>
-         <!-- /logo -->
-      </div>
-      <!-- main nav -->
-      <nav class="collapse navbar-collapse navbar-right">
-         <ul id="nav" class="nav navbar-nav menu">
-               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Homepage <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                     <li><a href="index.html">Homepage</a></li>
-                     <li><a href="index-text.html">Homepage 2</a></li>
-                     <li><a href="onepage-slider.html">Onepage</a></li>
-                     <li><a href="onepage-text.html">Onepage 2</a></li>
-                  </ul>
-               </li>
-               <li><a href="about.html">About Us</a></li>
-               <li><a href="service.html">Services</a></li>
-               <li><a href="portfolio.html">Portfolio</a></li>
-               <li><a href="team.html">Team</a></li>
-               <li><a href="pricing.html">Pricing</a></li>
-               <li><a href="contact.html">Contact</a></li>
-               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                     <li><a href="404.html">404 Page</a></li>
-                     <li><a href="blog.html">Blog Page</a></li>
-                  </ul>
-               </li>
-            </li>
-         </ul>
-      </nav>
-      <!-- /main nav -->
-   </div>
-</header>
+@include('includes.header')
 <!--
 End Fixed Navigation
 ==================================== -->
@@ -259,7 +161,7 @@ Welcome Slider
 		</div>
 	</div>
 </section>	
-
+<div class="container">
 <div class="col-md-4 col-sm-6 col-xs-12  no-padding">
   <div class="service-block color-bg text-center">
     <div class="service-icon text-center">
@@ -268,6 +170,7 @@ Welcome Slider
     <h3>WordPress Theme</h3>
     <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
   </div>
+</div>
 </div>
 <!--
 Start About Section
@@ -575,56 +478,7 @@ Start Call To Action
 		</div> <!-- end container -->
 	</section> <!-- end section -->
   
-<footer id="footer" class="bg-one">
-  <div class="top-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-md-3 col-lg-3">
-          <h3>about</h3>
-          <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-        <div class="col-sm-3 col-md-3 col-lg-3">
-          <ul>
-            <li><h3>Our Services</h3></li>
-            <li><a href="#">Graphic Design</a></li>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-          </ul>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-        <div class="col-sm-3 col-md-3 col-lg-3">
-          <ul>
-            <li><h3>Quick Links</h3></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">FAQ’s</a></li>
-            <li><a href="#">Badges</a></li>
-          </ul>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-        <div class="col-sm-3 col-md-3 col-lg-3">
-          <ul>
-            <li><h3>Connect with us Socially</h3></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">Pinterest</a></li>
-          </ul>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-      </div>
-    </div> <!-- end container -->
-  </div>
-  <div class="footer-bottom">
-    <h5>Copyright 2016. All rights reserved.</h5>
-    <h6>Design and Developed by <a href="">Themefisher</a></h6>
-  </div>
-</footer> <!-- end footer -->
+@include('includes.footer')
 
 
     <!-- end Footer Area
@@ -666,7 +520,7 @@ Start Call To Action
     <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
     <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.video.min.js"></script> 
   
-{{-- <script>
+ <script>
   
     /* https://learn.jquery.com/using-jquery-core/document-ready/ */
     jQuery(document).ready(function() {
@@ -722,7 +576,7 @@ Start Call To Action
             }
         });
     });
-</script> --}}
+</script> 
 
 </body>
 </html>
