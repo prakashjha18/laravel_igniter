@@ -120,36 +120,36 @@
   <!-- CSS
   ================================================== -->
   <!-- RS5.0 Main Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/css/settings.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/settings.css">
   <!-- RS5.0 Layers and Navigation Styles -->
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/navigation.css">
   <!-- REVOLUTION STYLE SHEETS -->
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/fonts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/css/settings.css">
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="plugins/revo-slider/css/navigation.css"> 
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/settings.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="bingoplugins/revo-slider/css/navigation.css"> 
   <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <link rel="stylesheet" href="bingoplugins/themefisher-font/style.css">
   <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bingoplugins/bootstrap/css/bootstrap.min.css">
   <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="bingoplugins/lightbox2/dist/css/lightbox.min.css">
   <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" href="bingoplugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="bingoplugins/slick-carousel/slick/slick-theme.css">
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bingocss/style.css">
 
 
   <!-- Colors -->
-  <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green">
-  <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="light-red">
-  <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue">
-  <link rel="stylesheet" type="text/css" href="css/colors/light-blue.css" title="light-blue">
-  <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow">
-  <link rel="stylesheet" type="text/css" href="css/colors/light-green.css" title="light-green">
+  <link rel="stylesheet" type="text/css" href="bingocss/colors/green.css" title="green">
+  <link rel="stylesheet" type="text/css" href="bingocss/colors/red.css" title="light-red">
+  <link rel="stylesheet" type="text/css" href="bingocss/colors/blue.css" title="blue">
+  <link rel="stylesheet" type="text/css" href="bingocss/colors/light-blue.css" title="light-blue">
+  <link rel="stylesheet" type="text/css" href="bingocss/colors/yellow.css" title="yellow">
+  <link rel="stylesheet" type="text/css" href="bingocss/colors/light-green.css" title="light-green">
   
 
 </head>
@@ -192,8 +192,8 @@ Fixed Navigation
          <!-- /responsive nav button -->
          <!-- logo -->
          <a class="navbar-brand logo" href="index.html">
-            <img class="logo-default" src="images/logo.png" alt="logo" />
-            <img class="logo-white" src="images/logo-white.png" alt="logo" />
+            <img class="logo-default" src="bingoimages/logo.png" alt="logo" />
+            <img class="logo-white" src="bingoimages/logo-white.png" alt="logo" />
          </a>
          <!-- /logo -->
       </div>
@@ -260,7 +260,15 @@ Welcome Slider
 	</div>
 </section>	
 
-
+<div class="col-md-4 col-sm-6 col-xs-12  no-padding">
+  <div class="service-block color-bg text-center">
+    <div class="service-icon text-center">
+      <i class="tf-ion-ios-copy-outline"></i>
+    </div>
+    <h3>WordPress Theme</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+  </div>
+</div>
 <!--
 Start About Section
 ==================================== -->
@@ -277,7 +285,7 @@ Start About Section
       <!-- /section title -->
 
       <div class="col-md-4 text-center">
-        <img src="images/about/member.jpg" class="inline-block" alt="">
+        <img src="bingoimages/about/member.jpg" class="inline-block" alt="">
       </div>
       <div class="col-md-8">
         <div class="row text-center">
@@ -331,7 +339,7 @@ Start About Section
 			<!-- /section title -->
 
 			<div class="col-md-6">
-				<img src="images/about/about-2.png" class="img-responsive" alt="">
+				<img src="bingoimages/about/about-2.png" class="img-responsive" alt="">
 			</div>
 			<div class="col-md-6">
 				<ul class="checklist">
@@ -446,7 +454,7 @@ Start Call To Action
 							<!-- /client info -->
 							<!-- client photo -->
 							<div class="client-thumb">
-								<img src="images/client-logo/clients-1.jpg" class="img-responsive" alt="">
+								<img src="bingoimages/client-logo/clients-1.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>Abul Mal Muhit</h3>
@@ -466,7 +474,7 @@ Start Call To Action
 							<!-- /client info -->
 							<!-- client photo -->
 							<div class="client-thumb">
-								<img src="images/client-logo/clients-1.jpg" class="img-responsive" alt="">
+								<img src="bingoimages/client-logo/clients-1.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>Abul Mal Muhit</h3>
@@ -486,7 +494,7 @@ Start Call To Action
 							<!-- /client info -->
 							<!-- client photo -->
 							<div class="client-thumb">
-								<img src="images/client-logo/clients-1.jpg" class="img-responsive" alt="">
+								<img src="bingoimages/client-logo/clients-1.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>Abul Mal Muhit</h3>
@@ -520,7 +528,7 @@ Start Call To Action
 				<article class="col-md-4 col-sm-6 col-xs-12 clearfix " >
 					<div class="post-item">
 						<div class="media-wrapper">
-							<img src="images/blog/post-1.jpg" alt="amazing caves coverimage" class="img-responsive">
+							<img src="bingoimages/blog/post-1.jpg" alt="amazing caves coverimage" class="img-responsive">
 						</div>
 						
 						<div class="content">
@@ -536,7 +544,7 @@ Start Call To Action
 				<article class="col-md-4 col-sm-6 col-xs-12 "  >
 					<div class="post-item">
 						<div class="media-wrapper">
-							<img src="images/blog/post-2.jpg" alt="amazing caves coverimage" class="img-responsive">
+							<img src="bingoimages/blog/post-2.jpg" alt="amazing caves coverimage" class="img-responsive">
 						</div>
 						
 						<div class="content">
@@ -552,7 +560,7 @@ Start Call To Action
 				<article class="col-md-4 col-sm-6 col-xs-12 "  >
 					<div class="post-item">
 						<div class="media-wrapper">
-							<img src="images/blog/post-3.jpg" alt="amazing caves coverimage" class="img-responsive">
+							<img src="bingoimages/blog/post-3.jpg" alt="amazing caves coverimage" class="img-responsive">
 						</div>
 						
 						<div class="content">
@@ -566,7 +574,7 @@ Start Call To Action
 			</div> <!-- end row -->
 		</div> <!-- end container -->
 	</section> <!-- end section -->
-
+  
 <footer id="footer" class="bg-one">
   <div class="top-footer">
     <div class="container">
@@ -627,36 +635,36 @@ Start Call To Action
     =====================================-->
     
   <!-- Main jQuery -->
-    <script src="plugins/jquery/dist/jquery.min.js"></script>
+    <script src="bingoplugins/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap 3.1 -->
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="bingoplugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- Parallax -->
-    <script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+    <script src="bingoplugins/parallax/jquery.parallax-1.1.3.js"></script>
     <!-- lightbox -->
-    <script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
+    <script src="bingoplugins/lightbox2/dist/js/lightbox.min.js"></script>
     <!-- slick Carousel -->
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <script src="bingoplugins/slick-carousel/slick/slick.min.js"></script>
     <!-- Portfolio Filtering -->
-    <script src="plugins/mixitup/dist/mixitup.min.js"></script>
+    <script src="bingoplugins/mixitup/dist/mixitup.min.js"></script>
     <!-- Smooth Scroll js -->
-    <script src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script type="text/javascript" src="plugins/revo-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="plugins/revo-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="bingoplugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/jquery.themepunch.revolution.min.js"></script>
     <!-- Custom js -->
-    <script src="js/script.js"></script>
+    <script src="bingojs/script.js"></script>
 
       <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
     (Load Extensions only on Local File Systems ! 
     The following part can be removed on Server for On Demand Loading) --> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-    <script type="text/javascript" src="plugins/revo-slider/js/extensions/revolution.extension.video.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.migration.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
+    <script type="text/javascript" src="bingoplugins/revo-slider/js/extensions/revolution.extension.video.min.js"></script> 
   
 {{-- <script>
   
